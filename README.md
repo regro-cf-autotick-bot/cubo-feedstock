@@ -1,11 +1,11 @@
-About cubo
-==========
+About cubo-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cubo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/davemlz/cubo
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cubo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Easily create EO mini cubes from STAC in Python
 
