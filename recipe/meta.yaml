@@ -1,5 +1,5 @@
 {% set name = "cubo" %}
-{% set version = "0.1.0" %}
+{% set version = "2023.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubo-{{ version }}.tar.gz
-  sha256: 61cc62c8916c7ac8c332e3913b766730da80d0636473f1c0708c8efd7d56eb1e
+  sha256: 2ad78b564885e3085725d205050a544c10a33469717c7823ee81ca4cb220fc0b
 
 build:
   noarch: python
@@ -16,19 +16,16 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
   run:
-    - python >=3.8
-    - dask-core >=2021.9.1
-    - numpy
-    - pandas
-    - planetary-computer
-    - pyproj
-    - pystac-client
-    - rasterio
-    - stackstac
-    - xarray
+    - python >=3.9
+    - dask-core >=2023.7.0
+    - pandas >=2.0.3
+    - planetary-computer >=1.0.0
+    - pystac-client >=0.7.2
+    - stackstac >=0.4.4
+    - xarray >=2023.6.0
 
 test:
   imports:
