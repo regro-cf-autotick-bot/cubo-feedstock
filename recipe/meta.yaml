@@ -1,5 +1,5 @@
 {% set name = "cubo" %}
-{% set version = "2023.7.1" %}
+{% set version = "2023.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubo-{{ version }}.tar.gz
-  sha256: 3b90a89420158ff92cc97b002f79783556760efb8e26daeb1fc7b1fb31bfb36c
+  sha256: f7c08eab7345747b769a2c7a7882bec286e4f2b2a12690222026802cd5a1a8a2
 
 build:
   noarch: python
