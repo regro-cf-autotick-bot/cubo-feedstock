@@ -1,5 +1,5 @@
 {% set name = "cubo" %}
-{% set version = "2023.7.2" %}
+{% set version = "2024.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubo-{{ version }}.tar.gz
-  sha256: f7c08eab7345747b769a2c7a7882bec286e4f2b2a12690222026802cd5a1a8a2
+  sha256: 9166b9c1185c71b7fa5483f70034e7d6a7f9a628dd12c772174eb02b428ae333
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/davemlz/cubo
-  summary: Easily create EO mini cubes from STAC in Python
+  summary: On-Demand Earth System Data Cubes in Python
   license: MIT
   license_file: LICENSE
   doc_url: https://cubo.readthedocs.io/en/latest/
