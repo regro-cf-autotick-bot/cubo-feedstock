@@ -1,5 +1,5 @@
 {% set name = "cubo" %}
-{% set version = "2024.1.0" %}
+{% set version = "2024.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cubo-{{ version }}.tar.gz
-  sha256: 9166b9c1185c71b7fa5483f70034e7d6a7f9a628dd12c772174eb02b428ae333
+  sha256: 4ebf7783bbe78375d8c49df292500c9121c8e70b44fe15b2173591f44f4fb30f
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - pandas >=2.0.3
     - planetary-computer >=1.0.0
     - pystac-client >=0.7.2
+    - scipy >=1.12.0
     - stackstac >=0.4.4
     - xarray >=2023.6.0
 
@@ -36,12 +37,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/davemlz/cubo
+  home: https://github.com/ESDS-Leipzig/cubo
   summary: On-Demand Earth System Data Cubes in Python
   license: MIT
   license_file: LICENSE
   doc_url: https://cubo.readthedocs.io/en/latest/
-  dev_url: https://github.com/davemlz/cubo
+  dev_url: https://github.com/ESDS-Leipzig/cubo
 
 extra:
   recipe-maintainers:
