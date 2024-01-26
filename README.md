@@ -3,13 +3,13 @@ About cubo-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cubo-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/davemlz/cubo
+Home: https://github.com/ESDS-Leipzig/cubo
 
 Package license: MIT
 
 Summary: On-Demand Earth System Data Cubes in Python
 
-Development: https://github.com/davemlz/cubo
+Development: https://github.com/ESDS-Leipzig/cubo
 
 Documentation: https://cubo.readthedocs.io/en/latest/
 
